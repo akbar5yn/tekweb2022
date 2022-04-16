@@ -1,5 +1,8 @@
 {
-    "nama": "Farid Surya",
-    "description": "College student | Ahmad Dahlan University",
-    "imageProfile": "https://raw.githubusercontent.com/akbar5yn/tekweb-navbar/main/img/Akbar%20Pratama%20Suryamin.jpeg"
+    "message": "Hello Vue!",
+    "imageProfile": "https://raw.githubusercontent.com/akbar5yn/tekweb-navbar/main/img/Akbar%20Pratama%20Suryamin.jpeg",
+    "jumbotron": {
+        "nama": "Akbar Pratama Suryamin",
+        "description": "College student | Ahmad Dahlan University"
+    }
 }
