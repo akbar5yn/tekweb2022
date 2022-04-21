@@ -5,10 +5,23 @@
   padding-top: 7rem;
 }
 
+#articles {
+  background-color: #c5c5c5;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 #projects {
   background-color: #c5c5c5;
 }
 
 section {
   padding-top: 5rem;
+}
+
+.table-responsive-sm{
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+  
 }

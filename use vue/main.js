@@ -3,8 +3,9 @@ Vue.createApp({
         return {
             message: 'Hello Vue!',
             jumbotron: {
+                image: "https://raw.githubusercontent.com/akbar5yn/tekweb2022/master/img/Akbar%20Pratama%20Suryamin.jpeg",
                 nama: "Akbar Pratama Suryamin",
-                description: "College student | Ahmad Dahlan University"
+                description: "College student | Ahmad Dahlan University"    
             },
             about: {
                 title: "About Me",
