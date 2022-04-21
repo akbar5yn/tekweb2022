@@ -1,20 +1,20 @@
 [
     {
-        "title":"W3School",
-        "description": "W3Schools adalah situs web developer informasi, dengan tutorial dan referensi yang berkaitan dengan topik pengembangan web seperti HTML, CSS, JavaScript, PHP, SQL, dan JQuery.",
-        "thumbnail": "https://th.bing.com/th/id/OIP.yKi_ZYPl9p7BmOwyh9tD2QHaEK?pid=ImgDet&w=203&h=114.18750000000001&c=7&dpr=1,25",
-        "published_at": "Last updated 14/04/2022"
+        "title1":"W3School",
+        "description1": "W3Schools adalah situs web developer informasi, dengan tutorial dan referensi yang berkaitan dengan topik pengembangan web seperti HTML, CSS, JavaScript, PHP, SQL, dan JQuery.",
+        "thumbnail1": "https://th.bing.com/th/id/OIP.yKi_ZYPl9p7BmOwyh9tD2QHaEK?pid=ImgDet&w=203&h=114.18750000000001&c=7&dpr=1,25",
+        "published_at1": "Last updated 14/04/2022"
     },
     {
-        "title":"Petani Kode",
-        "description": "Petani Kode adalah blog yang membahas seputar dunia pemrograman dan Linux, disini kita dapat mempelajari berbagai bahasa pemrograman.",
-        "thumbnail": "https://2.bp.blogspot.com/-RclbFxJbl-0/VlCfRx_o6UI/AAAAAAAACPA/wN1OGfx7hts/s1600/kultwit%2Bpetani%2Bkode.png",
-        "published_at": "Last updated 14/04/2022"
+        "title2":"Petani Kode",
+        "description2": "Petani Kode adalah blog yang membahas seputar dunia pemrograman dan Linux, disini kita dapat mempelajari berbagai bahasa pemrograman.",
+        "thumbnail2": "https://2.bp.blogspot.com/-RclbFxJbl-0/VlCfRx_o6UI/AAAAAAAACPA/wN1OGfx7hts/s1600/kultwit%2Bpetani%2Bkode.png",
+        "published_at2": "Last updated 14/04/2022"
     },
     {
-        "title":"Code Academy",
-        "description": "W3Schools adalah situs web developer informasi, dengan tutorial dan referensi yang berkaitan dengan topik pengembangan web seperti HTML, CSS, JavaScript, PHP, SQL, dan JQuery.",
-        "thumbnail": "https://th.bing.com/th/id/OIP.vS7a807hpKIwOBgEeA15GwHaD4?pid=ImgDet&w=203&h=114.0983606557377&c=7&dpr=1,25",
-        "published_at": "Last updated 14/04/2022"
+        "title3":"Code Academy",
+        "description3": "W3Schools adalah situs web developer informasi, dengan tutorial dan referensi yang berkaitan dengan topik pengembangan web seperti HTML, CSS, JavaScript, PHP, SQL, dan JQuery.",
+        "thumbnail3": "https://th.bing.com/th/id/OIP.vS7a807hpKIwOBgEeA15GwHaD4?pid=ImgDet&w=203&h=114.0983606557377&c=7&dpr=1,25",
+        "published_at3": "Last updated 14/04/2022"
     }
 ]
