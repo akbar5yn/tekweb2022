@@ -3,12 +3,12 @@
         "title": "My Projects"
     },    
     {
-        
+        "gambar": "https://raw.githubusercontent.com/akbar5yn/tekweb2022/master/projects/bottle%20mushroom1.png",
         "title": "Karya Blender.1",
         "description": "Berikut merupakan karya 3 dimensi yang saya pelajari dengan otodidak memalui youtube"
     },
     {
-
+        "gambar" : "https://raw.githubusercontent.com/akbar5yn/tekweb2022/master/projects/FirstKarya.png",
         "title": "Karya Blender.2",
         "description": "Kemudian karya yang kedua adalah usaha selama saya mengikuti mata kuliah Teknologi Multimedia pada semester 2 tahun lalu"
     }
