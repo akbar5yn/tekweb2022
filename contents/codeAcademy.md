@@ -1,1 +1,2 @@
 # Code Academy
+Codeacademy adalah salah satu contoh landing page menarik. Codeacademy merupakan platform belajar coding secara online dengan beragam learning path yang ada. Ketika kamu baru pertama kali mengunjungi, kamu akan langsung disuguhi form login dan pendaftaran yang sederhana.

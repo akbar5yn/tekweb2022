@@ -153,11 +153,11 @@
           <!--Card 1-->
           <div class="col" v-for="item in articles">
             <div class="card h-100">
-              <a href="https://www.w3schools.com" target="_blank">
+              <a v-bind:href="item.url" target="_blank">
                 <img v-bind:src="item.thumbnail" class="card-img-top" alt="..." height="">
               </a>
               <div class="card-body">
-                <h5 class="card-title"> <a href="https://www.w3schools.com/" target="_blank"
+                <h5 class="card-title"> <a v-bind:href="item.url" target="_blank"
                     style="font-size: x-large; text-decoration: none; color: black;">{{item.title}}</a></h5>
                 <p class="card-text">{{ item.description }}</p>
               </div>
