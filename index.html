@@ -147,26 +147,28 @@
       <!--Articles-->
 
       <section id="articles" style="margin-top: -1%;">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2> {{judul.article}} </h2>
+        <div class="container">
+          <div class="row text-center mb-3">
+            <div class="col">
+              <h2> {{judul.article}} </h2>
+            </div>
           </div>
-        </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <!--Card 1-->
-          <div class="col" v-for="item in articles">
-            <div class="card h-100">
-              <div class="card-body p-3">
-                <a v-bind:href="item.url" target="_blank">
-                  <img v-bind:src="item.thumbnail" class="card-img-top" alt="..." height="">
-                </a>
-                <h5 class="card-title"> <a v-bind:href="item.url" target="_blank"
-                    style="font-size: x-large; text-decoration: none; color: black;">{{item.title}}</a></h5>
-                <p class="card-text text-secondary small">{{ item.description }}</p>
-                <a :href="'./read.html?article='+item.content" class="btn btn-primary" role="button">Read</a>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">{{item.published_at}}</small>
+          <div class="row g-4">
+            <!--Card 1-->
+            <div class="col-md-4" v-for="item in articles">
+              <div class="card h-100">
+                <div class="card-body p-3">
+                  <a v-bind:href="item.url" target="_blank">
+                    <img v-bind:src="item.thumbnail" class="card-img-top" alt="..." height="">
+                  </a>
+                  <h5 class="card-title"> <a v-bind:href="item.url" target="_blank"
+                      style="font-size: x-large; text-decoration: none; color: black;">{{item.title}}</a></h5>
+                  <p class="card-text text-secondary small">{{ item.description }}</p>
+                  <a :href="'./read.html?article='+item.content" class="btn btn-primary" role="button">Read</a>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">{{item.published_at}}</small>
+                </div>
               </div>
             </div>
           </div>
@@ -183,9 +185,9 @@
               <h2> {{ judul.project }} </h2>
             </div>
           </div>
-          <div class="row">
+          <div class="row g-4">
             <div class="col-md-6" v-for="item in project">
-              <div class="card" style="margin-top: 5%;">
+              <div class="card">
                 <div class="card-body p-3">
                   <img v-bind:src="item.gambar" class="card-img-top" alt="Karya 3 Dimensi" />
                   <h3>{{ item.title }}</h3>
