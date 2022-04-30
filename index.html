@@ -1,140 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <!-- My CSS -->
 
-  <!-- My CSS -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>My Portfolio | Akbar Pratama Suryamin</title>
+  </head>
 
-  <link rel="stylesheet" href="./style.css" />
-  <title>My Portfolio | Akbar Pratama Suryamin</title>
-</head>
+  <!--Body-->
 
-<!--Body-->
-
-<body id="home">
-  <div id="app">
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-warning shadow-sm fixed-top" style="font-size: large">
-      <div class="container">
-        <a class="navbar-brand">My Portfolio</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
+  <body id="home">
+    <div id="app">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-warning shadow-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand">My Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="#articles">Articles</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Project</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="angular/index.html">Buku Alamat</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-    <!-- /Navbar -->
+      </nav>
+      <!-- /Navbar -->
 
-    <!-- Jumbotron -->
-    <section class="jumbotron text-center">
-      <img class="rounded-circle img-thumbnail" v-bind:src="jumbotron.image" width="200" />
-      <h1>{{ message }}</h1>
-      <h1>{{ jumbotron.nama }}</h1>
-      <h4>{{ jumbotron.description }}</h4>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#ffffff" fill-opacity="1"
-          d="M0,288L40,282.7C80,277,160,267,240,250.7C320,235,400,213,480,218.7C560,224,640,256,720,250.7C800,245,880,203,960,186.7C1040,171,1120,181,1200,170.7C1280,160,1360,128,1400,112L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
-        </path>
-      </svg>
-    </section>
-    <!-- /Jumbotron -->
+      <!-- Jumbotron -->
+      <section class="jumbotron text-center">
+        <img class="rounded-circle img-thumbnail" v-bind:src="jumbotron.image" width="200" />
+        <h1>{{ message }}</h1>
+        <h1>{{ jumbotron.nama }}</h1>
+        <h4>{{ jumbotron.description }}</h4>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#ffffff"
+            fill-opacity="1"
+            d="M0,288L40,282.7C80,277,160,267,240,250.7C320,235,400,213,480,218.7C560,224,640,256,720,250.7C800,245,880,203,960,186.7C1040,171,1120,181,1200,170.7C1280,160,1360,128,1400,112L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+          ></path>
+        </svg>
+      </section>
+      <!-- /Jumbotron -->
 
-    <!-- Abaout -->
-    <section id="about">
-      <div class="container">
-        <div class="row text-center mb-3">
+      <!-- Abaout -->
+      <section id="about">
+        <div class="container">
+          <div class="row text-center mb-3">
+            <div class="col">
+              <h2>{{about.title}}</h2>
+            </div>
+          </div>
+          <div class="row justify-content-between text-center" style="font-size: larger">
+            <div class="col-md-4">
+              <p>{{ about.description1 }}</p>
+            </div>
+            <div class="col-md-4">
+              <p>{{ about.description2}}</p>
+            </div>
+          </div>
+        </div>
+        <!--/About-->
+
+        <!--Daftar Keterampilan-->
+        <div class="row text-center mb-3" style="margin-top: 100px">
           <div class="col">
-            <h2> {{about.title}} </h2>
+            <h2>{{judul.keterampilan}}</h2>
           </div>
         </div>
-        <div class="row justify-content-between text-center" style="font-size: larger">
-          <div class="col-md-4">
-            <p>{{ about.description1 }}</p>
-          </div>
-          <div class="col-md-4">
-            <p>{{ about.description2}}</p>
-          </div>
+        <div class="table-responsive-sm">
+          <table class="table table-responsive table-bordered">
+            <thead class="table-light">
+              <tr>
+                <th scope="col">NO</th>
+                <th class="text-center" scope="col">Keterampilan</th>
+                <th class="text-center">Level 1-10</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Blender</td>
+                <td>7</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>HTML</td>
+                <td>7</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>CSS</td>
+                <td>6</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Javascript</td>
+                <td>5</td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>Python</td>
+                <td>7</td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td>MySql</td>
+                <td>8</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-      </div>
-      <!--/About-->
-
-      <!--Daftar Keterampilan-->
-      <div class="row text-center mb-3" style="margin-top: 100px;">
-        <div class="col">
-          <h2> {{judul.keterampilan}} </h2>
-        </div>
-      </div>
-      <div class="table-responsive-sm">
-        <table class="table table-responsive table-bordered">
-          <thead class="table-light">
-            <tr>
-              <th scope="col">NO</th>
-              <th class="text-center" scope="col">Keterampilan</th>
-              <th class="text-center">Level 1-10</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td>Blender</td>
-              <td>7</td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td>HTML</td>
-              <td>7</td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td>CSS</td>
-              <td>6</td>
-            </tr>
-            <tr>
-              <th scope="row">4</th>
-              <td>Javascript</td>
-              <td>5</td>
-            </tr>
-            <tr>
-              <th scope="row">5 </th>
-              <td>Python</td>
-              <td>7</td>
-            </tr>
-            <tr>
-              <th scope="row">6</th>
-              <td>MySql</td>
-              <td>8</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-    <!--/Daftar Keterampilan-->
+      </section>
+      <!--/Daftar Keterampilan-->
 
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
@@ -146,11 +148,11 @@
 
       <!--Articles-->
 
-      <section id="articles" style="margin-top: -1%;">
+      <section id="articles" style="margin-top: -1%">
         <div class="container">
           <div class="row text-center mb-3">
             <div class="col">
-              <h2> {{judul.article}} </h2>
+              <h2>{{judul.article}}</h2>
             </div>
           </div>
           <div class="row g-4">
@@ -159,10 +161,9 @@
               <div class="card h-100">
                 <div class="card-body p-3">
                   <a v-bind:href="item.url" target="_blank">
-                    <img v-bind:src="item.thumbnail" class="card-img-top" alt="..." height="">
+                    <img v-bind:src="item.thumbnail" class="card-img-top" alt="..." height="" />
                   </a>
-                  <h5 class="card-title"> <a v-bind:href="item.url" target="_blank"
-                      style="font-size: x-large; text-decoration: none; color: black;">{{item.title}}</a></h5>
+                  <h5 class="card-title"><a v-bind:href="item.url" target="_blank" style="font-size: x-large; text-decoration: none; color: black">{{item.title}}</a></h5>
                   <p class="card-text text-secondary small">{{ item.description }}</p>
                   <a :href="'./read.html?article='+item.content" class="btn btn-primary" role="button">Read</a>
                 </div>
@@ -182,7 +183,7 @@
         <div class="container">
           <div class="row text-center mb-3">
             <div class="col">
-              <h2> {{ judul.project }} </h2>
+              <h2>{{ judul.project }}</h2>
             </div>
           </div>
           <div class="row g-4">
@@ -198,9 +199,11 @@
           </div>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-          <path fill="#ffffff" fill-opacity="1"
-            d="M0,288L40,282.7C80,277,160,267,240,250.7C320,235,400,213,480,218.7C560,224,640,256,720,250.7C800,245,880,203,960,186.7C1040,171,1120,181,1200,170.7C1280,160,1360,128,1400,112L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
-          </path>
+          <path
+            fill="#ffffff"
+            fill-opacity="1"
+            d="M0,288L40,282.7C80,277,160,267,240,250.7C320,235,400,213,480,218.7C560,224,640,256,720,250.7C800,245,880,203,960,186.7C1040,171,1120,181,1200,170.7C1280,160,1360,128,1400,112L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+          ></path>
         </svg>
       </section>
       <!-- /Project -->
@@ -233,34 +236,28 @@
             </div>
           </div>
         </div>
-
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-          <path>
-            fill="#ffc107"
-            fill-opacity="1"
-            d="M0,160L40,138.7C80,117,160,75,240,64C320,53,400,75,480,106.7C560,139,640,181,720,170.7C800,160,880,96,960,90.7C1040,85,1120,139,1200,133.3C1280,128,1360,64,1400,32L1440,0L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
-            ></path>
-        </svg>
       </section>
       <!-- /Contact -->
-
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#adb5bd"
+          fill-opacity="1"
+          d="M0,96L48,96C96,96,192,96,288,122.7C384,149,480,203,576,208C672,213,768,171,864,154.7C960,139,1056,149,1152,138.7C1248,128,1344,
+        96,1392,80L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,
+        288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
       <!-- Footer -->
-      <footer class="bg-warning text-center pb-3" style="font-size: x-large">
-        <p>Created with love by <a href="https://www.instagram.com/akbar_syn/" class="text-white fw-bold">Akbar Pratama
-            Suryamin</a></p>
+      <footer class="footer text-center pb-1" style="font-size: x-large">
+        <p>Created with love by <a href="https://www.instagram.com/akbar_syn/" class="text-white fw-bold">Akbar Pratama Suryamin</a></p>
       </footer>
 
       <!-- /Footer -->
-
-
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/vue@3"></script>
-  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.3/showdown.min.js"></script>
-  <script src="./main_final.js"></script>
-</body>
-
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.3/showdown.min.js"></script>
+    <script src="./main_final.js"></script>
+  </body>
 </html>

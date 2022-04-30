@@ -1,7 +1,10 @@
+body{
+  margin: auto;
+  width: 100%;
+}
+
 .jumbotron {
   background-color: #c5c5c5;
-  padding: 0;
-  margin: 0;
   padding-top: 7rem;
 }
 
@@ -20,4 +23,8 @@ section {
 .table-responsive-sm{
   text-align: center;
   margin: 1%;
+}
+
+.footer{
+  background-color: #adb5bd;
 }
