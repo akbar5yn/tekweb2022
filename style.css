@@ -1,4 +1,4 @@
-body{
+body {
   margin: auto;
   width: 100%;
 }
@@ -20,11 +20,11 @@ section {
   padding-top: 5rem;
 }
 
-.table-responsive-sm{
+.table-responsive-sm {
   text-align: center;
   margin: 1%;
 }
 
-.footer{
+.footer {
   background-color: #adb5bd;
 }
