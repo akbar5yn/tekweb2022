@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(https://www.toptal.com/designers/subtlepatterns/uploads/white-waves.png);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar {
+  backdrop-filter: blur(2.7px);
+  border-bottom: 2px solid #fc5404;
+  background-color: #fff6ef;
+  opacity: 0.8;
+}
+
+.navbar .container .collapse ul li a {
+  color: black;
+  display: inline-block;
+}
+
+.navbar-toggler {
+  background-color: #fc5404;
+}
+
+.collapse ul li {
+  font-size: large;
+}
+
+.marquee {
+  font-size: 30px;
+  font-weight: 800;
+  color: black;
+  font-family: sans-serif;
+  width: 10rem;
+  color: #da0000;
+}
+
+#article .container {
+  border: 2px solid black;
+  margin-top: 8rem;
+  border-radius: 5px;
+  backdrop-filter: blur(2.7px);
+  border-bottom: 2px solid #fc5404;
+  background-color: #fff6ef;
+  opacity: 0.8;
+  transition: 0.8s;
+  margin-bottom: 4rem;
+}
+
+#article .container:hover {
+  box-shadow: 0px 11px 35px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}

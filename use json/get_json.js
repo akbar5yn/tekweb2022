@@ -1,26 +1,24 @@
 Vue.createApp({
   data() {
     return {
-      message: "Hello Vue!",
+      message: 'Hello Vue!',
       jumbotron: {},
       about: {},
       articles: [],
       project: [],
-      judul: {}
+      judul: {},
     };
   },
   methods: {
     getJumbotron() {
       axios
-        .get(
-          "https://raw.githubusercontent.com/akbar5yn/tekweb2022/master/contents/jumbotron.json"
-        )
+        .get('https://raw.githubusercontent.com/akbar5yn/tekweb2022/master/contents/jumbotron.json')
         .then((res) => {
           this.jumbotron = res.data;
-          this.getArticles()
-          this.getAbout()
-          this.getPorject()
-          this.getJudul()
+          this.getArticles();
+          this.getAbout();
+          this.getPorject();
+          this.getJudul();
         })
         .catch((error) => {
           console.log(error);
@@ -28,9 +26,7 @@ Vue.createApp({
     },
     getAbout() {
       axios
-        .get(
-          "https://raw.githubusercontent.com/akbar5yn/tekweb2022/master/contents/about.json"
-        )
+        .get('https://raw.githubusercontent.com/akbar5yn/tekweb2022/master/contents/about.json')
         .then((res) => {
           this.about = res.data;
         })
@@ -40,9 +36,7 @@ Vue.createApp({
     },
     getArticles() {
       axios
-        .get(
-          "https://raw.githubusercontent.com/akbar5yn/tekweb2022/portfolio/contents/articles.json"
-        )
+        .get('https://raw.githubusercontent.com/akbar5yn/tekweb2022/master/contents/articles.json')
         .then((res) => {
           this.articles = res.data;
         })
@@ -52,9 +46,7 @@ Vue.createApp({
     },
     getPorject() {
       axios
-        .get(
-          "https://raw.githubusercontent.com/akbar5yn/tekweb2022/master/contents/project.json"
-        )
+        .get('https://raw.githubusercontent.com/akbar5yn/tekweb2022/master/contents/project.json')
         .then((res) => {
           this.project = res.data;
         })
@@ -64,9 +56,7 @@ Vue.createApp({
     },
     getJudul() {
       axios
-        .get(
-          "https://raw.githubusercontent.com/akbar5yn/tekweb2022/master/contents/judul.json"
-        )
+        .get('https://raw.githubusercontent.com/akbar5yn/tekweb2022/master/contents/judul.json')
         .then((res) => {
           this.judul = res.data;
         })
@@ -76,6 +66,6 @@ Vue.createApp({
     },
   },
   beforeMount() {
-    this.getJumbotron()
+    this.getJumbotron();
   },
-}).mount("#app");
+}).mount('#app');

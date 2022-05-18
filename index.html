@@ -21,9 +21,9 @@
   <body id="home">
     <div id="app">
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-warning shadow-sm fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top">
         <div class="container">
-          <a class="navbar-brand">My Portfolio</a>
+          <a href=""><marquee behavior="" direction="" class="marquee">Welcome TO My Homepage</marquee></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -33,7 +33,7 @@
                 <a class="nav-link" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#MySkill">Skill</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#articles">Articles</a>
@@ -45,27 +45,44 @@
                 <a class="nav-link" href="#contact">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="angular/buku-alamat/index.html">Buku Alamat</a>
+                <a class="nav-link" href="angular/buku-alamat/index.html  ">Buku Alamat</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
+      <span class="taret"></span>
       <!-- /Navbar -->
 
       <!-- Jumbotron -->
+      <div class="figur">
+        <img src="img/pixlr-bg-result.png" alt="" />
+      </div>
       <section class="jumbotron text-center">
-        <img class="rounded-circle img-thumbnail" v-bind:src="jumbotron.image" width="200" />
+        <!-- <img class="rounded-circle img-thumbnail" v-bind:src="jumbotron.image" width="200" />
         <h1>{{ message }}</h1>
         <h1>{{ jumbotron.nama }}</h1>
-        <h4>{{ jumbotron.description }}</h4>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-          <path
-            fill="#ffffff"
-            fill-opacity="1"
-            d="M0,288L40,282.7C80,277,160,267,240,250.7C320,235,400,213,480,218.7C560,224,640,256,720,250.7C800,245,880,203,960,186.7C1040,171,1120,181,1200,170.7C1280,160,1360,128,1400,112L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
-          ></path>
-        </svg>
+        <h4>{{ jumbotron.description }}</h4> -->
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-md-8 text-center m-auto">
+              <div class="header-nama">
+                <h1 class="nama">{{ jumbotron.nama }}</h1>
+                <div class="typewriter col-md-12 text-center m-auto">
+                  <h1>
+                    I'm
+                    <span class="txt-rotate" data-period="2000" data-rotate='[ "Developer.", "Freelancer.", "Designer.", "Fun :)" ]'></span>
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="header-avatar h-25">
+                <img v-bind:src="jumbotron.image" class="img-thumbnail card-img-top bg-transparent" alt="avatar" height="100rem" />
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <!-- /Jumbotron -->
 
@@ -73,8 +90,8 @@
       <section id="about">
         <div class="container">
           <div class="row text-center mb-3">
-            <div class="col" data-aos="fade-in" data-aos-duration="900" data-aos-delay="200">
-              <h2>{{about.title}}</h2>
+            <div class="col" data-aos="fade-in" data-aos-duration="" data-aos-delay="200">
+              <h2 style="font-weight: bold">{{about.title}}</h2>
             </div>
           </div>
           <div class="row justify-content-between text-center" style="font-size: larger">
@@ -86,12 +103,14 @@
             </div>
           </div>
         </div>
-        <!--/About-->
+      </section>
+      <!--/About-->
 
-        <!--Daftar Keterampilan-->
-        <div class="row text-center mb-3" style="margin-top: 100px" data-aos="fade-in" data-aos-duration="900">
+      <!--Daftar Keterampilan-->
+      <section id="MySkill">
+        <div class="row text-center mb-3" data-aos="fade-in" data-aos-duration="900">
           <div class="col">
-            <h2>{{judul.keterampilan}}</h2>
+            <h2 style="font-weight: bold">{{judul.keterampilan}}</h2>
           </div>
         </div>
         <div class="table-responsive-sm" data-aos="fade-up" data-aos-duration="900">
@@ -99,7 +118,7 @@
             <thead class="table-light">
               <tr>
                 <th scope="col">NO</th>
-                <th class="text-center" scope="col">Keterampilan</th>
+                <th class="text-center" scope="col">Skills</th>
                 <th class="text-center">Level 1-10</th>
               </tr>
             </thead>
@@ -140,21 +159,13 @@
       </section>
       <!--/Daftar Keterampilan-->
 
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#c5c5c5"
-          fill-opacity="1"
-          d="M0,160L26.7,138.7C53.3,117,107,75,160,48C213.3,21,267,11,320,42.7C373.3,75,427,149,480,154.7C533.3,160,587,96,640,85.3C693.3,75,747,117,800,128C853.3,139,907,117,960,96C1013.3,75,1067,53,1120,42.7C1173.3,32,1227,32,1280,42.7C1333.3,53,1387,75,1413,85.3L1440,96L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"
-        ></path>
-      </svg>
-
       <!--Articles-->
 
       <section id="articles" style="margin-top: -1%">
         <div class="container">
           <div class="row text-center mb-3">
             <div class="col">
-              <h2>{{judul.article}}</h2>
+              <h2 style="font-weight: bold">{{judul.article}}</h2>
             </div>
           </div>
           <div class="row g-4">
@@ -167,10 +178,10 @@
                   </a>
                   <h5 class="card-title"><a v-bind:href="item.url" target="_blank" style="font-size: x-large; text-decoration: none; color: black">{{item.title}}</a></h5>
                   <p class="card-text text-secondary small">{{ item.description }}</p>
-                  <a :href="'./read.html?article='+item.content" class="btn btn-primary" role="button">Read</a>
+                  <a :href="'./read.html?article='+item.content" class="btn btn-danger" role="button">Read more</a>
                 </div>
                 <div class="card-footer">
-                  <small class="text-muted">{{item.published_at}}</small>
+                  <small>{{item.published_at}}</small>
                 </div>
               </div>
             </div>
@@ -185,7 +196,7 @@
         <div class="container">
           <div class="row text-center mb-3">
             <div class="col">
-              <h2>{{ judul.project }}</h2>
+              <h2 style="font-weight: bold">{{ judul.project }}</h2>
             </div>
           </div>
           <div class="row g-4">
@@ -200,13 +211,6 @@
             </div>
           </div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-          <path
-            fill="#ffffff"
-            fill-opacity="1"
-            d="M0,288L40,282.7C80,277,160,267,240,250.7C320,235,400,213,480,218.7C560,224,640,256,720,250.7C800,245,880,203,960,186.7C1040,171,1120,181,1200,170.7C1280,160,1360,128,1400,112L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
-          ></path>
-        </svg>
       </section>
       <!-- /Project -->
 
@@ -215,7 +219,7 @@
         <div class="containter">
           <div class="row text-center">
             <div class="col mb-3">
-              <h2>Contact Me</h2>
+              <h2 style="font-weight: bold">Contact Me</h2>
             </div>
           </div>
           <div class="row justify-content-center">
@@ -229,19 +233,19 @@
               <form name="my-personal-page-contact">
                 <div class="form-group">
                   <label for="name">Nama Lengkap</label>
-                  <input type="teks" class="form-control" id="exampleInputEmail1" aria-describedby="name" name="nama" />
+                  <input type="teks" class="form-control" id="exampleInputEmail1" aria-describedby="name" name="nama" required />
                 </div>
                 <div class="form-group">
                   <label for="email">Email</label>
-                  <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
+                  <input type="email" class="form-control" id="email" aria-describedby="email" name="email" required />
                 </div>
                 <div class="form-group">
                   <label for="pesan">Pesan</label>
                   <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary btn-kirim" style="margin-top: 10px">Kirim</button>
+                <button type="submit" class="btn btn-danger btn-kirim" style="margin-top: 10px">Kirim</button>
 
-                <button class="btn btn-primary btn-loading d-none" style="margin-top: 10px" type="button" disabled>
+                <button class="btn btn-danger btn-loading d-none" style="margin-top: 10px" type="button" disabled>
                   <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
                   Loading...
                 </button>
@@ -249,18 +253,18 @@
             </div>
           </div>
         </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#f56e30"
+            fill-opacity="1"
+            d="M0,128L48,138.7C96,149,192,171,288,192C384,213,480,235,576,240C672,245,768,235,864,213.3C960,192,1056,160,1152,144C1248,128,1344,128,1392,128L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          ></path>
+        </svg>
       </section>
       <!-- /Contact -->
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#adb5bd"
-          fill-opacity="1"
-          d="M0,96L48,96C96,96,192,96,288,122.7C384,149,480,203,576,208C672,213,768,171,864,154.7C960,139,1056,149,1152,138.7C1248,128,1344,
-        96,1392,80L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,
-        288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
+
       <!-- Footer -->
+
       <footer class="footer text-center pb-1" style="font-size: x-large">
         <p>Created with love by <a href="https://www.instagram.com/akbar_syn/" class="text-white fw-bold">Akbar Pratama Suryamin</a></p>
       </footer>
@@ -274,7 +278,9 @@
       AOS.init();
     </script>
 
+    <!-- script boostrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
     <script src="https://unpkg.com/vue@3"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.3/showdown.min.js"></script>

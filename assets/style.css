@@ -1,0 +1,34 @@
+body {
+  margin: auto;
+  width: 100%;
+}
+
+.collapse ul li {
+  font-size: large;
+}
+
+.jumbotron {
+  background-color: #c5c5c5;
+  padding-top: 7rem;
+}
+
+#articles {
+  background-color: #c5c5c5;
+}
+
+#projects {
+  background-color: #c5c5c5;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.table-responsive-sm {
+  text-align: center;
+  margin: 1%;
+}
+
+.footer {
+  background-color: #adb5bd;
+}
