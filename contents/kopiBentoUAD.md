@@ -6,7 +6,7 @@ Kopi bento UAD adalah café yang dimana disana kita dapat menikmati beraneka rag
 
 Berikut adalah gambar grafik analisis yang terjadi pada proses bisnis yang terjadi pada kopi bento uad;
 
-![Gambar teks editor VS Code](../img/Gambar5.png)
+<img src="https://raw.githubusercontent.com/akbar5yn/tekweb2022/redesign-tampilan/img/Gambar5.png">
 
 Pada proses bisnis yang berjalan di café bento yaitu, pada saat pelanggan tiba mereka akan memesan menu yang tertera, kemudian kasir yang melayani akan mencatat pesanan pelanggan yang dimana menggunakan sebuah alat bantu hardware dan software untuk menghitung dan mencatat total pesanan yang dimana menurut saya ini sangat membantu kasir serta jalannya proses bisnis di café ini. Kemudian setelah pelanggan memesan kasir akan selalu memastikan pesanan yang di lakukan oleh pelanggan sesuai dengan yang mereka pesan atau tidak. Kemudian pembayaran akan dilakukan secara langsung saat pemesanan. Kemudian pelanggan akan menuju ke meja dan menunggu pesanan di antarkan oleh pelayan yang dimana kasir sudah menanyakan lokasi meja saat memilih menu. dan Ketika kita ingin beranjak dari café kita tidak perlu malakukan pembayaran lagi dan bisa langsung go out dari café tersebut.
 
