@@ -36,7 +36,7 @@ Vue.createApp({
     },
     getArticles() {
       axios
-        .get('https://raw.githubusercontent.com/akbar5yn/tekweb2022/finalMarkdown/contents/articles.json')
+        .get('https://raw.githubusercontent.com/akbar5yn/tekweb2022/redesign-tampilan/contents/articles.json')
         .then((res) => {
           this.articles = res.data;
         })
