@@ -220,3 +220,14 @@ footer {
   color: #fc5404;
   text-decoration: underline;
 }
+
+.social {
+  margin-top: 1.2rem;
+}
+
+.social a {
+  font-size: 19px;
+  text-decoration: none;
+  color: #fc5404;
+  margin-left: 1rem;
+}
