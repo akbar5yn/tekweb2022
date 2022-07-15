@@ -1,32 +1,86 @@
 [
   {
     "no": "1",
-    "avatar": "",
+    "avatar": "https://raw.githubusercontent.com/akbar5yn/tekweb2022/redesign-tampilan/assets/img/avatarLaki-laki.png",
     "nama": "Apridan",
-    "motto": "Jangan Pernah lupakan kewajiban mu"
+    "motto": "Jangan Pernah lupakan kewajiban mu",
+    "social": {
+      "namaIG": "INSTAGRAM",
+      "namaPortfoilo": "PORTFOLIO",
+      "namaGithub": "GITHUB",
+      "ig": "https://www.instagram.com/apridan.hm/",
+      "portfolio": "https://apridan.xyz/",
+      "github": ""
+    }
   },
   {
     "no": "2",
-    "avatar": "",
+    "avatar": "https://raw.githubusercontent.com/akbar5yn/tekweb2022/redesign-tampilan/assets/img/avatarLaki-laki.png",
     "nama": "Teguh Dwi Cahya Kusuma",
-    "motto": "Di bawa santuy aja brody"
+    "motto": "Di bawa santuy aja brody",
+    "social": {
+      "namaIG": "INSTAGRAM",
+      "namaPortfoilo": "PORTFOLIO",
+      "namaGithub": "GITHUB",
+      "ig": "https://www.instagram.com/u.diama/",
+      "portfolio": "",
+      "github": ""
+    }
   },
   {
     "no": "3",
-    "avatar": "",
+    "avatar": "https://raw.githubusercontent.com/akbar5yn/tekweb2022/redesign-tampilan/assets/img/avatarLaki-laki.png",
     "nama": "Muhammad jindan Aljubay",
-    "motto": "-----------------------"
+    "motto": "?",
+    "social": {
+      "namaIG": "INSTAGRAM",
+      "namaPortfoilo": "PORTFOLIO",
+      "namaGithub": "GITHUB",
+      "ig": "",
+      "portfolio": "",
+      "github": ""
+    }
   },
   {
     "no": "4",
-    "avatar": "?",
-    "nama": "?",
-    "motto": "?"
+    "avatar": "https://raw.githubusercontent.com/akbar5yn/tekweb2022/redesign-tampilan/assets/img/avatarLaki-laki.png",
+    "nama": "Ansyafarino",
+    "motto": "?",
+    "social": {
+      "namaIG": "INSTAGRAM",
+      "namaPortfoilo": "PORTFOLIO",
+      "namaGithub": "GITHUB",
+      "ig": "https://www.instagram.com/syafarino_15/",
+      "portfolio": "",
+      "github": ""
+    }
   },
   {
     "no": "5",
-    "avatar": "?",
-    "nama": "?",
-    "motto": "?"
+    "avatar": "https://raw.githubusercontent.com/akbar5yn/tekweb2022/redesign-tampilan/assets/img/avatarLaki-laki.png",
+    "nama": "Akhadi Wira Satriaji",
+    "motto": "?",
+    "social": {
+      "namaIG": "INSTAGRAM",
+      "namaPortfoilo": "PORTFOLIO",
+      "namaGithub": "GITHUB",
+      "ig": "https://www.instagram.com/akhadiwira.s/",
+      "portfolio": "",
+      "github": ""
+    }
+  },
+  {
+    "no": "6",
+    "avatar": "https://raw.githubusercontent.com/akbar5yn/tekweb2022/redesign-tampilan/assets/img/avatarLaki-laki.png",
+    "nama": "Ahmad Rafli",
+    "motto": "?",
+    "social": {
+      "namaIG": "INSTAGRAM",
+      "namaPortfoilo": "PORTFOLIO",
+      "namaGithub": "GITHUB",
+      "ig": "https://www.instagram.com/rtzraf_/",
+      "portfolio": "",
+      "github": ""
+    }
   }
 ]
