@@ -1,5 +1,15 @@
 {
-    "image": "https://raw.githubusercontent.com/akbar5yn/tekweb2022/master/img/Akbar%20Pratama%20Suryamin.jpeg",
-    "nama": "Akbar Pratama Suryamin",
-    "description": "College student | Ahmad Dahlan University"
+  "image": "https://raw.githubusercontent.com/akbar5yn/tekweb2022/master/img/Akbar%20Pratama%20Suryamin.jpeg",
+  "nama": "Akbar Pratama Suryamin",
+  "description": "College student | Ahmad Dahlan University",
+  "social": {
+    "ig": {
+      "url": "https://www.instagram.com/akbar_syn/",
+      "nama": "akbar_syn"
+    },
+    "github": {
+      "url": "https://github.com/akbar5yn",
+      "nama": "akbar5yn"
+    }
+  }
 }
