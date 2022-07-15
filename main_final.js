@@ -68,7 +68,7 @@ Vue.createApp({
     },
     getTeman() {
       axios
-        .get('')
+        .get('https://raw.githubusercontent.com/akbar5yn/tekweb2022/redesign-tampilan/contents/teman.json')
         .then((res) => {
           this.teman = res.data;
         })
