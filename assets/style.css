@@ -32,3 +32,9 @@ section {
 .footer {
   background-color: #adb5bd;
 }
+
+.container .card .row .avatar img {
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+}
