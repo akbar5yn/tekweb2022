@@ -21,6 +21,7 @@ Vue.createApp({
           this.getAbout();
           this.getPorject();
           this.getJudul();
+          this.getTeman();
         })
         .catch((error) => {
           console.log(error);
