@@ -231,3 +231,9 @@ footer {
   color: #fc5404;
   margin-left: 1rem;
 }
+
+.container .card .row .avatar img {
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+}
