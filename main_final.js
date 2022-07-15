@@ -7,6 +7,7 @@ Vue.createApp({
       articles: [],
       project: [],
       judul: {},
+      teman: [],
     };
   },
   methods: {
@@ -57,9 +58,19 @@ Vue.createApp({
     },
     getJudul() {
       axios
-        .get('https://raw.githubusercontent.com/akbar5yn/tekweb2022/master/contents/judul.json')
+        .get('https://raw.githubusercontent.com/akbar5yn/tekweb2022/redesign-tampilan/contents/judul.json')
         .then((res) => {
           this.judul = res.data;
+        })
+        .catch((error) => {
+          console.log(error);
+        });
+    },
+    getTeman() {
+      axios
+        .get('')
+        .then((res) => {
+          this.teman = res.data;
         })
         .catch((error) => {
           console.log(error);

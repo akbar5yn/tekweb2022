@@ -12,7 +12,7 @@
   <body class="background">
     <div class="container background-container mt-3">
       <table class="table caption-top">
-        <h3>List of friends</h3>
+        <h3>{{judul.teman}}</h3>
         <a href="/daftarteman/alerts" class="btn btn-primary">Daftarkan Teman</a>
         <thead>
           <tr>
@@ -24,16 +24,21 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <th scope="row"><?= $listFriends['id'] ?></th>
-            <td><img src="/img/<?= $listFriends['foto_avatar'] ?>" alt="" class="avatar" /></td>
-            <td><?= $listFriends['nama_lengkap'] ?></td>
-            <td><?= $listFriends['motto'] ?></td>
-            <td><a href="/daftarteman/<?= $listFriends['nama_panggilan'] ?>" class="btn btn-success">Detail</a></td>
+          <tr v-for="list in teman">
+            <th scope="row">{{list.no}}</th>
+            <td><img v-bind:src="list.avatar" alt="avatar" class="avatar" /></td>
+            <td>{{list.nama}}</td>
+            <td>{{list.motto}}</td>
+            <td><a href="detail.html" class="btn btn-success">Detail</a></td>
           </tr>
         </tbody>
       </table>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.3/showdown.min.js"></script>
+    <script src="./main_final.js"></script>
   </body>
 </html>
