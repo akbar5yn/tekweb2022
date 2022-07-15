@@ -1,0 +1,100 @@
+{
+  "teman": {
+    "1": {
+      "nama": "Apridan",
+      "motto": "Jangan pernah Tinggalkan Kewajiban mu",
+      "ig": {
+        "url": "https://www.instagram.com/apridan.hm/",
+        "nama": "INSTAGRAM"
+      },
+      "portfolio": {
+        "url": "https://apridan.xyz/",
+        "nama": "PORTFOLIO"
+      },
+      "github": {
+        "url": "",
+        "nama": "GITHUB"
+      }
+    },
+    "2": {
+      "nama": "Teguh Dwi Cahya Kusuma",
+      "motto": "?",
+      "ig": {
+        "url": "https://www.instagram.com/u.diama/",
+        "nama": "INSTAGRAM"
+      },
+      "portfolio": {
+        "url": "",
+        "nama": "PORTFOLIO"
+      },
+      "github": {
+        "url": "",
+        "nama": "GITHUB"
+      }
+    },
+    "3": {
+      "nama": "Muhammad Jindan Aljubay",
+      "motto": "?",
+      "ig": {
+        "url": "",
+        "nama": "INSTAGRAM"
+      },
+      "portfolio": {
+        "url": "",
+        "nama": "PORTFOLIO"
+      },
+      "github": {
+        "url": "",
+        "nama": "GITHUB"
+      }
+    },
+    "4": {
+      "nama": "Ansyafarino",
+      "motto": "?",
+      "ig": {
+        "url": "https://www.instagram.com/syafarino_15/",
+        "nama": "INSTAGRAM"
+      },
+      "portfolio": {
+        "url": "",
+        "nama": "PORTFOLIO"
+      },
+      "github": {
+        "url": "",
+        "nama": "GITHUB"
+      }
+    },
+    "5": {
+      "nama": "Akhadi Wira Satriaji",
+      "motto": "?",
+      "ig": {
+        "url": "https://www.instagram.com/akhadiwira.s/",
+        "nama": "INSTAGRAM"
+      },
+      "portfolio": {
+        "url": "",
+        "nama": "PORTFOLIO"
+      },
+      "github": {
+        "url": "",
+        "nama": "GITHUB"
+      }
+    },
+    "6": {
+      "nama": "Ahmad Rafli",
+      "motto": "?",
+      "ig": {
+        "url": "https://www.instagram.com/rtzraf_/",
+        "nama": "INSTAGRAM"
+      },
+      "portfolio": {
+        "url": "",
+        "nama": "PORTFOLIO"
+      },
+      "github": {
+        "url": "",
+        "nama": "GITHUB"
+      }
+    }
+  }
+}
