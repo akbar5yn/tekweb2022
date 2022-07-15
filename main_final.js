@@ -12,7 +12,7 @@ Vue.createApp({
   methods: {
     getJumbotron() {
       axios
-        .get('https://raw.githubusercontent.com/akbar5yn/tekweb2022/master/contents/jumbotron.json')
+        .get('https://raw.githubusercontent.com/akbar5yn/tekweb2022/redesign-tampilan/contents/jumbotron.json')
         // .get((src = 'contents/jumbotron.json'))
         .then((res) => {
           this.jumbotron = res.data;
